@@ -16,4 +16,4 @@
 
 ![image-20210314113904231](https://gitee.com/mochen2020/picture-warehouse/raw/master/img/image-20210314113904231.png)
 
-演示网址：http://106.75.15.34/
+演示网址：[http://106.75.15.34/](http://106.75.15.34/)  <u>手机号，密码随意</u>

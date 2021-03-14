@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<web>
+    <!--tomcat中存放图片的项目的名称-->
+    <img-store>imgStore</img-store>
+    <!--当前服务器的域名-->
+    <domain>http://localhost:8080</domain>
+</web>

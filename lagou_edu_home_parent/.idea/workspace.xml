@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ssm_web:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d59185fb-8f70-45e6-95a5-cfcfe601975a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Arquillian JUnit Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/IDE/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\IDE\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="jdk-1.8" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="1osvEgpJWiBCkcYgBUIsP8GfsPf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ssm_dao/src/main/resources/filter" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15136719" />
+    <property name="project.structure.side.proportion" value="0.3020372" />
+    <property name="settings.editor.selected.configurable" value="Mybatis" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.lagou.dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\拉钩教育后台管理\lagou_edu_home_parent\ssm_dao\src\main\resources\filter" />
+      <recent name="E:\拉钩教育后台管理\lagou_edu_home_parent\ssm_entity\src\main\java\com\lagou\entity" />
+      <recent name="E:\拉钩教育后台管理\lagou_edu_home_parent\ssm_utils\src\main\java\com\lagou\utils" />
+      <recent name="E:\拉钩教育后台管理\lagou_edu_home_parent\ssm_dao\src\main\resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\拉钩教育后台管理\lagou_edu_home_parent\ssm_dao\src\main\resources\core" />
+      <recent name="E:\拉钩教育后台管理\lagou_edu_home_parent\ssm_web\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.ssm">
+    <configuration name="Md5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lagou.utils.Md5" />
+      <module name="ssm_utils" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lagou.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MenuMapperTest.findSubMenuListByPid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssm_dao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lagou.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lagou.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.lagou.dao.MenuMapperTest" />
+      <option name="METHOD_NAME" value="findSubMenuListByPid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoloMapperTest.testFindAllRole" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssm_dao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lagou.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lagou.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.lagou.dao.RoloMapperTest" />
+      <option name="METHOD_NAME" value="testFindAllRole" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest.test38" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssm_dao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lagou.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lagou.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.lagou.dao.UserMapperTest" />
+      <option name="METHOD_NAME" value="test38" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest.testFindAllUserByPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssm_dao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lagou.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lagou.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.lagou.dao.UserMapperTest" />
+      <option name="METHOD_NAME" value="testFindAllUserByPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ssm" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.55" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="ssm_web:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ssm-web" />
+          </settings>
+        </artifact>
+        <file path="%IDEA_RUN:TOMCAT_HOME%/webapps/imgStore">
+          <settings>
+            <option name="CONTEXT_PATH" value="/imgStore" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_lagou_edu_home_parent_2" />
+        <option name="JNDI_PORT" value="10990" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="7199" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ssm_web:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Md5" />
+      <item itemvalue="JUnit.MenuMapperTest.findSubMenuListByPid" />
+      <item itemvalue="JUnit.RoloMapperTest.testFindAllRole" />
+      <item itemvalue="JUnit.UserMapperTest.test38" />
+      <item itemvalue="JUnit.UserMapperTest.testFindAllUserByPage" />
+      <item itemvalue="Tomcat Server.ssm" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserMapperTest.test38" />
+        <item itemvalue="Application.Md5" />
+        <item itemvalue="JUnit.MenuMapperTest.findSubMenuListByPid" />
+        <item itemvalue="JUnit.RoloMapperTest.testFindAllRole" />
+        <item itemvalue="JUnit.UserMapperTest.testFindAllUserByPage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.11305298" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d59185fb-8f70-45e6-95a5-cfcfe601975a" name="Default Changelist" comment="" />
+      <created>1614088002857</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614088002857</updated>
+      <workItem from="1614088006087" duration="7190000" />
+      <workItem from="1614137165345" duration="26456000" />
+      <workItem from="1614242914546" duration="57852000" />
+      <workItem from="1614565159069" duration="19513000" />
+      <workItem from="1614764531756" duration="22235000" />
+      <workItem from="1615083937322" duration="16254000" />
+      <workItem from="1615337319315" duration="5126000" />
+      <workItem from="1615347548723" duration="2182000" />
+      <workItem from="1615355831392" duration="1748000" />
+      <workItem from="1615457061653" duration="6043000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="198" key="#Auto_Import" timestamp="1614499636483">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="198" key="#Auto_Import/0.0.1920.1080@0.0.1920.1080" timestamp="1614499636483" />
+    <state x="552" y="198" key="#Inspections" timestamp="1614501258284">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="198" key="#Inspections/0.0.1920.1080@0.0.1920.1080" timestamp="1614501258284" />
+    <state x="552" y="198" key="#Notifications" timestamp="1614234855346">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="198" key="#Notifications/0.0.1920.1080@0.0.1920.1080" timestamp="1614234855346" />
+    <state x="552" y="198" key="#Project_Structure" timestamp="1614088141135">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="198" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1614088141135" />
+    <state x="552" y="198" key="#Vim_Emulation" timestamp="1614234967656">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="198" key="#Vim_Emulation/0.0.1920.1080@0.0.1920.1080" timestamp="1614234967656" />
+    <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615521082093">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1615521082093" />
+    <state x="713" y="241" key="#com.intellij.ide.util.MemberChooser" timestamp="1615174625171">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="713" y="241" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1615174625171" />
+    <state x="688" y="446" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1614088924997">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="688" y="446" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1920.1080@0.0.1920.1080" timestamp="1614088924997" />
+    <state x="541" y="465" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1614160418811">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="541" y="465" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1614160418811" />
+    <state x="739" y="398" width="441" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1614851865332">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="739" y="398" width="441" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1080@0.0.1920.1080" timestamp="1614851865332" />
+    <state x="739" y="419" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1614160422206">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="739" y="419" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1080@0.0.1920.1080" timestamp="1614160422206" />
+    <state x="690" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1614142892807">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="690" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1614142892807" />
+    <state x="740" y="295" key="FileChooserDialogImpl" timestamp="1614906123627">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="740" y="295" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1614906123627" />
+    <state width="1623" height="458" key="GridCell.Tab.0.bottom" timestamp="1615521874567">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1623" height="458" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1615521874567" />
+    <state width="1623" height="458" key="GridCell.Tab.0.center" timestamp="1615521874567">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1623" height="458" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1615521874567" />
+    <state width="1623" height="458" key="GridCell.Tab.0.left" timestamp="1615521874567">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1623" height="458" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1615521874567" />
+    <state width="1623" height="458" key="GridCell.Tab.0.right" timestamp="1615521874567">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1623" height="458" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1615521874567" />
+    <state width="1623" height="458" key="GridCell.Tab.1.bottom" timestamp="1615521874567">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1623" height="458" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1615521874567" />
+    <state width="1623" height="458" key="GridCell.Tab.1.center" timestamp="1615521874567">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1623" height="458" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1615521874567" />
+    <state width="1623" height="458" key="GridCell.Tab.1.left" timestamp="1615521874567">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1623" height="458" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1615521874567" />
+    <state width="1623" height="458" key="GridCell.Tab.1.right" timestamp="1615521874567">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1623" height="458" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1615521874567" />
+    <state width="1623" height="458" key="GridCell.Tab.2.bottom" timestamp="1615521874567">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1623" height="458" key="GridCell.Tab.2.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1615521874567" />
+    <state width="1623" height="458" key="GridCell.Tab.2.center" timestamp="1615521874567">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1623" height="458" key="GridCell.Tab.2.center/0.0.1920.1080@0.0.1920.1080" timestamp="1615521874567" />
+    <state width="1623" height="458" key="GridCell.Tab.2.left" timestamp="1615521874567">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1623" height="458" key="GridCell.Tab.2.left/0.0.1920.1080@0.0.1920.1080" timestamp="1615521874567" />
+    <state width="1623" height="458" key="GridCell.Tab.2.right" timestamp="1615521874567">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1623" height="458" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1615521874567" />
+    <state width="1623" height="458" key="GridCell.Tab.3.bottom" timestamp="1615466361835">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1623" height="458" key="GridCell.Tab.3.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1615466361835" />
+    <state width="1623" height="458" key="GridCell.Tab.3.center" timestamp="1615466361835">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1623" height="458" key="GridCell.Tab.3.center/0.0.1920.1080@0.0.1920.1080" timestamp="1615466361835" />
+    <state width="1623" height="458" key="GridCell.Tab.3.left" timestamp="1615466361835">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1623" height="458" key="GridCell.Tab.3.left/0.0.1920.1080@0.0.1920.1080" timestamp="1615466361835" />
+    <state width="1623" height="458" key="GridCell.Tab.3.right" timestamp="1615466361835">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1623" height="458" key="GridCell.Tab.3.right/0.0.1920.1080@0.0.1920.1080" timestamp="1615466361835" />
+    <state width="1559" height="345" key="GridCell.Tab.6.bottom" timestamp="1614742264104">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1559" height="345" key="GridCell.Tab.6.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1614742264104" />
+    <state width="1559" height="345" key="GridCell.Tab.6.center" timestamp="1614742264104">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1559" height="345" key="GridCell.Tab.6.center/0.0.1920.1080@0.0.1920.1080" timestamp="1614742264104" />
+    <state width="1559" height="345" key="GridCell.Tab.6.left" timestamp="1614742264104">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1559" height="345" key="GridCell.Tab.6.left/0.0.1920.1080@0.0.1920.1080" timestamp="1614742264104" />
+    <state width="1559" height="345" key="GridCell.Tab.6.right" timestamp="1614742264104">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1559" height="345" key="GridCell.Tab.6.right/0.0.1920.1080@0.0.1920.1080" timestamp="1614742264104" />
+    <state x="490" y="195" key="Maven.ArtifactSearchDialog" timestamp="1614572137431">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="490" y="195" key="Maven.ArtifactSearchDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1614572137431" />
+    <state x="756" y="83" key="SettingsEditor" timestamp="1614244196867">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="756" y="83" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1614244196867" />
+    <state x="452" y="142" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1614827498820">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="452" y="142" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1614827498820" />
+    <state x="731" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1614501376259">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="731" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1614501376259" />
+    <state x="324" y="172" key="new project wizard" timestamp="1614906176969">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="324" y="172" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1614906176969" />
+    <state x="710" y="411" key="spring file set editor" timestamp="1614149505172">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="710" y="411" key="spring file set editor/0.0.1920.1080@0.0.1920.1080" timestamp="1614149505172" />
+  </component>
+</project>

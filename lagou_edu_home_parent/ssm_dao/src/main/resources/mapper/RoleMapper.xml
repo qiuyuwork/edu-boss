@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lagou.dao.RoleMapper">
+    <!--重建 角色-菜单关系 -->
+    <insert id="buildRoleMenuRelation" parameterType="com.lagou.entity.Role_menu_relation">
+        insert into role_menu_relation values(
+            null,#{menuId},#{roleId},#{createdTime},#{updatedTime},#{createdBy},#{updatedby})
+    </insert>
+    <!--清除 角色-菜单关联关系 -->
+    <delete id="deleteRoleMenuRelations">
+        delete from role_menu_relation where role_id = #{roleId}
+    </delete>
+    <!--根据id删除角色-->
+    <delete id="deleteRole">
+        delete from roles where id=#{id}
+    </delete>
+    <!--根据角色ID删除，与之绑定的资源-->
+    <delete id="deleteRoleResource">
+        delete from role_resource_relation where role_id=#{roleId}
+    </delete>
+
+    <!--创建角色-->
+    <insert id="saveRole" parameterType="com.lagou.entity.Role">
+        insert into roles values(
+            null,
+            #{code},
+            #{name},
+            #{description},
+            #{createdTime},
+            #{updatedTime},
+            #{createdBy},
+            #{updatedBy}
+        )
+    </insert>
+    <!--重新为角色添加资源-->
+    <insert id="addRoleResource" parameterType="com.lagou.entity.RoleResourceRelation">
+        insert into role_resource_relation values (
+            null,
+            #{resourceId},
+            #{roleId},
+            #{createdTime},
+            #{updatedTime},
+            #{createdBy},
+            #{updatedBy}
+        )
+    </insert>
+    <!--修改角色信息-->
+    <update id="updateRole" parameterType="com.lagou.entity.Role">
+        update roles
+        <set>
+            <if test="code!=null and code != ''">
+                code=#{code},
+            </if>
+            <if test="name!=null and name != ''">
+                name=#{name},
+            </if>
+            <if test="description!=null and description != ''">
+                description=#{description},
+            </if>
+            <if test="createdTime!=null">
+                created_time=#{createdTime},
+            </if>
+            <if test="updatedTime!=null">
+                updated_time=#{updatedTime},
+            </if>
+            <if test="createdBy!=null and createdBy != ''">
+                created_by=#{createdBy},
+            </if>
+            <if test="updatedBy!=null and updatedBy != ''">
+                updated_by=#{updatedBy},
+            </if>
+        </set>
+        where id=#{id}
+    </update>
+
+    <!--查询所有角色，条件：角色名称-->
+    <select id="findAllRole" resultType="com.lagou.entity.Role" parameterType="com.lagou.entity.Role">
+        select
+            id,
+            CODE,
+            NAME,
+            description,
+            created_time,
+            updated_time,
+            created_by,
+            updated_by
+        from roles
+        <where>
+            <if test="name !=null and name !=''">
+                and name like concat('%',#{name},'%')
+            </if>
+        </where>
+    </select>
+    <!--根据角色Id查找对应的菜单Id-->
+    <select id="findMenuByRoleId" resultType="java.lang.Integer">
+        select menu_id from role_menu_relation where role_id=#{roleId}
+    </select>
+    <!--根据角色Id查找所关联的所有资源-->
+    <select id="findResourceByRoleId" resultType="com.lagou.entity.Resource">
+        select * from resource where id in (
+            select resource_id from role_resource_relation where role_id=#{roleId}
+        )
+    </select>
+</mapper>
